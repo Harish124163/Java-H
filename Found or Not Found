@@ -1,0 +1,35 @@
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Size of array : ");
+        int size = sc.nextInt();
+        System.out.print("\nTarget value : ");
+        int tar = sc.nextInt();
+        int[] arr= new int[size];
+        int found=-2;
+        System.out.println("Provide Array values.... ");
+        for(int index=0;index<size;index++)
+                arr[index]=sc.nextInt();
+
+        for(int index=0;index<size;index++)
+             {
+                 if(arr[index]==tar)
+                 {
+                     found=index;
+                     break;
+                 }
+
+             }   
+             if(found>=0)
+             {
+                 System.out.print("Target number "+tar+" found at index of "+found);
+            }
+            else
+            {
+                 System.out.print("Target number not found in array");
+            }   
+
+    }
+}
