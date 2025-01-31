@@ -12,3 +12,55 @@ public class Main{
     }
 }
 ****************************************************************
+2) Write a program to print the power of m raised to n.
+      import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner obj=new Scanner(System.in);
+        double n=obj.nextDouble();
+        double m=obj.nextDouble();
+        System.out.printf("%.2f",Math.pow(n,m));
+    }
+}
+*****************************************************************
+3)Find the total customers
+Jeevan is running a sports club. He already had N number of customers and due to the offer that he declared yesterday a lot of new members have joined the club today. Your task here is to write a program to fi nd the total number of customers that he has.
+Question Instructions:
+
+     import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner obj=new Scanner(System.in);
+        int n=obj.nextInt();
+        int m=obj.nextInt();
+        System.out.print(n+m);
+    }
+}
+*****************************************************************
+4)If the marks of Alice in 3 subjects are mark1, mark2, mark3. Calculate the total and average.
+      import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner obj=new Scanner(System.in);
+        double n=obj.nextDouble();
+        double m=obj.nextDouble();
+        double k=obj.nextDouble();
+        System.out.print("Total : "+(n+m+k));
+        System.out.printf("Average : %.2f ",((n+m+k)/3));
+    }
+}
+*******************************************************************
+5) 
+   import java.util.*;
+public class Main{
+    public static void main(String[]args){
+       https://www.onlinegdb.com/#editor_1 Scanner obj=new Scanner(System.in);
+        double n=obj.nextInt();
+        double x= Math.sqrt(3)*n;
+        System.out.printf("Side : %.2f %n",x);
+        System.out.printf("Length : %.2f %n",x*3);
+        System.out.printf("Breadth : %.2f",(n*4));
+    }
+}
+
+  
