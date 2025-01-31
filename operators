@@ -1,0 +1,14 @@
+1) Displays the square, cube, and square root of the number.
+
+          import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner obj=new Scanner(System.in);
+        double n=obj.nextDouble();
+        double w=Math.sqrt(n);
+        System.out.println("Square of "+ n +" is: "+n*n);
+        System.out.println("cube of "+ n +" is: "+n*n*n);
+        System.out.println("Square root of "+ n +" is: "+w);
+    }
+}
+****************************************************************
